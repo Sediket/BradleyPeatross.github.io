@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Your Name] - Staff DevSecOps Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Add Font Awesome if you want icons for links later -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> -->
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="container">
+                <h1 class="site-title">[Your Name]</h1>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="container section">
+            <h2>About Me</h2>
+             <!-- Optional: Add a professional photo here
+             <img src="your-photo.jpg" alt="[Your Name]" class="profile-photo">
+             -->
+            <p>
+                Experienced Staff DevSecOps Engineer with [Your total years] years specializing in secure DoD environments. Proven ability to stabilize, re-architect, and manage complex on-premise and cloud (Azure) Kubernetes platforms using GitOps, IaC, and modern cloud-native tooling. Passionate about automation, security, and enabling development teams. Active TS/SCI clearance.
+            </p>
+             <a href="[Link to your PDF Resume - e.g., resume.pdf]" target="_blank" class="button">Download Resume (PDF)</a>
+        </section>
+
+        <section id="experience" class="container section">
+            <h2>Professional Experience</h2>
+
+            <article class="job">
+                <h3>Sentinel Staff DevSecOps Engineer (Top Secret)</h3>
+                <p class="company-date">Northrop Grumman | Roy Innovation Center, UT | June 2023 – Present</p>
+                <ul>
+                    <li>Revitalized & Transformed Kubernetes Platform: Led stabilization and complete re-architecture of an unmanaged on-premise Kubernetes environment (Spectro CAPI/vSphere) across three classified enclaves; subsequently managed data migrations to the new platform and established full lifecycle sustainment processes (monitoring, upgrades, backups).</li>
+                    <li>Expanded & Optimized Cluster Infrastructure: Designed and deployed dedicated Test clusters (for dev/testing), new Production clusters (for in-house applications), and GitLab Runner clusters across enclaves, enhancing development cycles and resolving CI/CD performance bottlenecks.</li>
+                    <li>Implemented Modern Kubernetes Ecosystem: Engineered and deployed core infrastructure services including Istio, MetalLB, Kube-Prometheus-Stack, Loki, Kyverno, Nexus, Keycloak, Velero, and GitLab.</li>
+                    <li>Established GitOps & IaC Practices: Implemented GitOps workflows using FluxCD and GitLab for automated, version-controlled infrastructure (IaC) and application deployments, primarily leveraging Helm charts.</li>
+                    <li>Enhanced Security & Access Control: Deployed Keycloak for centralized SSO and integrated OIDC (kubelogin) for secure, role-based developer access to distinct Kubernetes namespaces.</li>
+                    <li>Mentored & Guided Engineering Team: Functioned as a Kubernetes technical lead, defined Agile tasks, and actively mentored junior engineers on Kubernetes, GitOps, IaC, and DevSecOps best practices.</li>
+                </ul>
+            </article>
+
+            <article class="job">
+                <h3>DevOps Cloud Administrator / Software Developer (Secret)</h3>
+                <p class="company-date">United States Air Force, 519th Mission Planning | HILL AFB, UT | May 2020 – June 2023</p>
+                 <ul>
+                    <li>Managed deployment & lifecycle of AirForce Mission Planning software on Azure Kubernetes Services (AKS) within DevOps/CI/CD pipelines, ensuring security compliance, troubleshooting, and public connectivity.</li>
+                    <li>Established & administered a DISA-hosted cloud development environment (networks, firewalls, VMs) for 519th dev teams, meeting security/tooling needs; enabled participation in a $4.5M annual contract & supported pandemic telework capabilities.</li>
+                    <li>Developed reusable C# .NET common libraries adhering to organizational microservice standards, reducing development time across all .NET teams.</li>
+                 </ul>
+            </article>
+
+             <article class="job">
+                <h3>Data Center Installation Team Lead (Top Secret)</h3>
+                <p class="company-date">Defense Information Systems Agency (DISA) | HILL AFB, UT | Dec 2016 – May 2020</p>
+                <ul>
+                    <li>Led engineering team executing data center hardware installations, configurations, & removals using ITIL/Change Management.</li>
+                    <li>Coordinated stakeholders & external technicians; monitored team productivity & ensured adherence to standards.</li>
+                </ul>
+            </article>
+
+            <!-- Add other jobs similarly using the <article> structure -->
+            <article class="job">
+                <h3>Enterprise Directory Messaging Lead (Top Secret)</h3>
+                <p class="company-date">Marine Corps Network Operations Security Center (MCNOSC) | Camp Foster, Japan | June 2013 – Dec 2016</p>
+                 <ul>
+                    <li>Managed enterprise services (Microsoft, VMware, Cisco, Juniper, PKI), personnel, & inventory for MCEN WestPAC region.</li>
+                    <li>Ensured DoD security compliance across physical/virtual infrastructure; led AD & Exchange migrations via Remedy ITMS.</li>
+                 </ul>
+            </article>
+
+             <!-- ... Add all previous roles here ... -->
+
+        </section>
+
+        <section id="skills" class="container section">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div>
+                    <h3>Cloud & Virtualization</h3>
+                    <ul>
+                        <li>Azure (AKS)</li>
+                        <li>DISA Cloud Environments</li>
+                        <li>On-Premise (vSphere)</li>
+                        <li>VMware</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Containerization & Orchestration</h3>
+                    <ul>
+                        <li>Kubernetes (CKA Certified)</li>
+                        <li>Spectro CAPI</li>
+                        <li>AKS</li>
+                        <li>Istio (Service Mesh/Ingress)</li>
+                        <li>Helm</li>
+                        <li>Docker / Podman</li>
+                        <li>MetalLB</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>GitOps & CI/CD</h3>
+                    <ul>
+                        <li>GitOps (FluxCD)</li>
+                        <li>CI/CD Pipeline Design</li>
+                        <li>GitLab (Platform & Runners)</li>
+                        <li>Jenkins / Bamboo (Prior Exp.)</li>
+                     </ul>
+                </div>
+                 <div>
+                    <h3>Infrastructure as Code (IaC)</h3>
+                    <ul>
+                        <li>Helm</li>
+                        <li>Terraform</li>
+                        <li>Ansible</li>
+                     </ul>
+                </div>
+                 <div>
+                    <h3>Monitoring & Logging</h3>
+                    <ul>
+                        <li>Kube-Prometheus-Stack</li>
+                        <li>Grafana</li>
+                        <li>Loki Stack</li>
+                     </ul>
+                </div>
+                <div>
+                    <h3>Security & Identity</h3>
+                    <ul>
+                        <li>DevSecOps Practices</li>
+                        <li>Keycloak (SSO/OIDC)</li>
+                        <li>Kyverno (Policy as Code)</li>
+                        <li>Velero (Backup/Restore)</li>
+                        <li>Network Security / Firewalls</li>
+                        <li>CISSP Certified</li>
+                        <li>CEH Certified</li>
+                        <li>ACAS / Fortify / SonarQube</li>
+                     </ul>
+                </div>
+                 <div>
+                    <h3>OS & Infrastructure</h3>
+                    <ul>
+                        <li>Linux (RHCSA Certified - RHEL, CentOS, Ubuntu)</li>
+                        <li>Windows Server</li>
+                        <li>Networking Fundamentals</li>
+                     </ul>
+                </div>
+                 <div>
+                    <h3>Development & Scripting</h3>
+                    <ul>
+                        <li>C# .NET</li>
+                        <li>Microservice Architecture</li>
+                        <li>Bash/Shell Scripting</li>
+                     </ul>
+                </div>
+                 <div>
+                    <h3>Other Tools & Methodologies</h3>
+                    <ul>
+                        <li>Nexus Repository</li>
+                        <li>Agile</li>
+                        <li>ITIL</li>
+                     </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications" class="container section">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Certified Kubernetes Administrator (CKA) - Nov 2023</li>
+                <li>Certified Information Systems Security Professional (CISSP) - June 2014 (Current)</li>
+                <li>Red Hat Certified System Administrator (RHCSA) - Mar 2017</li>
+                <li>Certified Ethical Hacker (CEH) - May 2015</li>
+                <!-- Add other relevant certs - keep list manageable -->
+                <li>VMware Certified Professional (VCP 4) - Nov 2011</li>
+            </ul>
+        </section>
+
+        <section id="education" class="container section">
+            <h2>Education</h2>
+            <p>
+                **Weber State University** - Syracuse, UT <br>
+                BS Computer Science (cum laude 3.74 GPA) - Dec 2020
+            </p>
+        </section>
+
+        <section id="contact" class="container section">
+            <h2>Contact</h2>
+            <p>Feel free to reach out!</p>
+            <ul>
+                <li>Email: <a href="mailto:[Your Email Address]">[Your Email Address]</a></li>
+                <li>LinkedIn: <a href="[Your LinkedIn Profile URL]" target="_blank">[Your LinkedIn Profile URL]</a></li>
+                <li>GitHub: <a href="https://github.com/[Your GitHub Username]" target="_blank">[Your GitHub Username]</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© <span id="year"></span> [Your Name]. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
